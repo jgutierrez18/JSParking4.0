@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jgutierrez.jsparking.InicioActivity">
+
+    <ImageButton
+        android:id="@+id/btnRegistrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/login2"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <ImageButton
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/login1"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+</android.support.constraint.ConstraintLayout>
